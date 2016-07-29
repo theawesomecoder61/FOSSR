@@ -31,6 +31,9 @@ Mac OS X and iOS have a framework named *AVFoundation*. This handles audio and v
 ![](http://i.imgur.com/RZxy5Cu.png)
 ### Countdown (an optional feature)
 ![](http://i.imgur.com/vF8NTbn.png)
+### Configure window
+To close the window, click the red circle or push *Escape*.
+![](http://i.imgur.com/zC9azZd.png)
 
 ## Building for yourself
 1. Make sure Xcode is installed
