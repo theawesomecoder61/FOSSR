@@ -4,9 +4,6 @@ A **F**ree, **O**pen-**S**ource **S**creen **R**ecorder for Mac OS X 10.8+.
 ## [Download here](https://github.com/theawesomecoder61/FOSSR/releases)
 This will take you to the releases page.
 
-## Why not use QuickTime?
-QuickTime's built-in screen recorder is fine, but there is a lack of configuration (framerate, quality, etc.). So I decided to make my own that will be configurable.
-
 ## Features
 - Records the entire display
 - Choose which display to record
