@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A09A2D41D4A642D004D4EA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A2D31D4A642D004D4EA9 /* AppDelegate.m */; };
+		4A09A2D71D4A642D004D4EA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A2D61D4A642D004D4EA9 /* main.m */; };
+		4A09A2D91D4A642D004D4EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A09A2D81D4A642D004D4EA9 /* Assets.xcassets */; };
+		4A09A2DC1D4A642D004D4EA9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A09A2DA1D4A642D004D4EA9 /* MainMenu.xib */; };
+		4A09A2E71D4A642D004D4EA9 /* FOSSSRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A2E61D4A642D004D4EA9 /* FOSSSRTests.m */; };
+		4A09A2F21D4A642D004D4EA9 /* FOSSSRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A2F11D4A642D004D4EA9 /* FOSSSRUITests.m */; };
+		4A09A3001D4A643F004D4EA9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A09A2FF1D4A643F004D4EA9 /* AVFoundation.framework */; };
+		4A09A3041D4A6A00004D4EA9 /* DrawMouseBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A3031D4A6A00004D4EA9 /* DrawMouseBoxView.m */; };
+		4A09A3061D4AB11E004D4EA9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A09A3051D4AB11E004D4EA9 /* Credits.rtf */; };
+		4A09A3451D4AF287004D4EA9 /* MKBCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A3441D4AF287004D4EA9 /* MKBCloseButton.m */; };
+		4A09A34F1D4AF7D2004D4EA9 /* DJActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A3471D4AF7D2004D4EA9 /* DJActivityIndicator.m */; };
+		4A09A3501D4AF7D2004D4EA9 /* DJBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A3491D4AF7D2004D4EA9 /* DJBezierPath.m */; };
+		4A09A3511D4AF7D2004D4EA9 /* DJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A34B1D4AF7D2004D4EA9 /* DJProgressHUD.m */; };
+		4A09A3521D4AF7D2004D4EA9 /* DJProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A09A34D1D4AF7D2004D4EA9 /* DJProgressIndicator.m */; };
+		4A09A3541D4B0C69004D4EA9 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A09A3531D4B0C69004D4EA9 /* ScriptingBridge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A09A2E31D4A642D004D4EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A09A2C71D4A642D004D4EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A09A2CE1D4A642D004D4EA9;
+			remoteInfo = FOSSSR;
+		};
+		4A09A2EE1D4A642D004D4EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A09A2C71D4A642D004D4EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A09A2CE1D4A642D004D4EA9;
+			remoteInfo = FOSSSR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A09A2CF1D4A642D004D4EA9 /* FOSSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOSSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A09A2D21D4A642D004D4EA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A09A2D31D4A642D004D4EA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A09A2D61D4A642D004D4EA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A09A2D81D4A642D004D4EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A09A2DB1D4A642D004D4EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A09A2DD1D4A642D004D4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A09A2E21D4A642D004D4EA9 /* FOSSR.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOSSR.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A09A2E61D4A642D004D4EA9 /* FOSSSRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOSSSRTests.m; sourceTree = "<group>"; };
+		4A09A2E81D4A642D004D4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A09A2ED1D4A642D004D4EA9 /* FOSSR.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOSSR.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A09A2F11D4A642D004D4EA9 /* FOSSSRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOSSSRUITests.m; sourceTree = "<group>"; };
+		4A09A2F31D4A642D004D4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A09A2FF1D4A643F004D4EA9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A09A3021D4A6A00004D4EA9 /* DrawMouseBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawMouseBoxView.h; sourceTree = "<group>"; };
+		4A09A3031D4A6A00004D4EA9 /* DrawMouseBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMouseBoxView.m; sourceTree = "<group>"; };
+		4A09A3051D4AB11E004D4EA9 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		4A09A3431D4AF287004D4EA9 /* MKBCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBCloseButton.h; sourceTree = "<group>"; };
+		4A09A3441D4AF287004D4EA9 /* MKBCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBCloseButton.m; sourceTree = "<group>"; };
+		4A09A3461D4AF7D2004D4EA9 /* DJActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJActivityIndicator.h; sourceTree = "<group>"; };
+		4A09A3471D4AF7D2004D4EA9 /* DJActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJActivityIndicator.m; sourceTree = "<group>"; };
+		4A09A3481D4AF7D2004D4EA9 /* DJBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJBezierPath.h; sourceTree = "<group>"; };
+		4A09A3491D4AF7D2004D4EA9 /* DJBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJBezierPath.m; sourceTree = "<group>"; };
+		4A09A34A1D4AF7D2004D4EA9 /* DJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProgressHUD.h; sourceTree = "<group>"; };
+		4A09A34B1D4AF7D2004D4EA9 /* DJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProgressHUD.m; sourceTree = "<group>"; };
+		4A09A34C1D4AF7D2004D4EA9 /* DJProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProgressIndicator.h; sourceTree = "<group>"; };
+		4A09A34D1D4AF7D2004D4EA9 /* DJProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProgressIndicator.m; sourceTree = "<group>"; };
+		4A09A3531D4B0C69004D4EA9 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A09A2CC1D4A642D004D4EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09A3541D4B0C69004D4EA9 /* ScriptingBridge.framework in Frameworks */,
+				4A09A3001D4A643F004D4EA9 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A09A2DF1D4A642D004D4EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A09A2EA1D4A642D004D4EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A09A2C61D4A642D004D4EA9 = {
+			isa = PBXGroup;
+			children = (
+				4A09A2D11D4A642D004D4EA9 /* FOSSR */,
+				4A09A2E51D4A642D004D4EA9 /* FOSSRTests */,
+				4A09A2F01D4A642D004D4EA9 /* FOSSRUITests */,
+				4A09A3011D4A6445004D4EA9 /* Frameworks */,
+				4A09A2D01D4A642D004D4EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A09A2D01D4A642D004D4EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A2CF1D4A642D004D4EA9 /* FOSSR.app */,
+				4A09A2E21D4A642D004D4EA9 /* FOSSR.xctest */,
+				4A09A2ED1D4A642D004D4EA9 /* FOSSR.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A09A2D11D4A642D004D4EA9 /* FOSSR */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A34E1D4AF7D2004D4EA9 /* DJProgressHUD */,
+				4A09A3421D4AF287004D4EA9 /* MKBCloseButton */,
+				4A09A3021D4A6A00004D4EA9 /* DrawMouseBoxView.h */,
+				4A09A3031D4A6A00004D4EA9 /* DrawMouseBoxView.m */,
+				4A09A2D21D4A642D004D4EA9 /* AppDelegate.h */,
+				4A09A2D31D4A642D004D4EA9 /* AppDelegate.m */,
+				4A09A2DA1D4A642D004D4EA9 /* MainMenu.xib */,
+				4A09A2D81D4A642D004D4EA9 /* Assets.xcassets */,
+				4A09A2DD1D4A642D004D4EA9 /* Info.plist */,
+				4A09A2D51D4A642D004D4EA9 /* Supporting Files */,
+			);
+			name = FOSSR;
+			path = FOSSSR;
+			sourceTree = "<group>";
+		};
+		4A09A2D51D4A642D004D4EA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A3051D4AB11E004D4EA9 /* Credits.rtf */,
+				4A09A2D61D4A642D004D4EA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A09A2E51D4A642D004D4EA9 /* FOSSRTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A2E61D4A642D004D4EA9 /* FOSSSRTests.m */,
+				4A09A2E81D4A642D004D4EA9 /* Info.plist */,
+			);
+			name = FOSSRTests;
+			path = FOSSSRTests;
+			sourceTree = "<group>";
+		};
+		4A09A2F01D4A642D004D4EA9 /* FOSSRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A2F11D4A642D004D4EA9 /* FOSSSRUITests.m */,
+				4A09A2F31D4A642D004D4EA9 /* Info.plist */,
+			);
+			name = FOSSRUITests;
+			path = FOSSSRUITests;
+			sourceTree = "<group>";
+		};
+		4A09A3011D4A6445004D4EA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A3531D4B0C69004D4EA9 /* ScriptingBridge.framework */,
+				4A09A2FF1D4A643F004D4EA9 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A09A3421D4AF287004D4EA9 /* MKBCloseButton */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A3431D4AF287004D4EA9 /* MKBCloseButton.h */,
+				4A09A3441D4AF287004D4EA9 /* MKBCloseButton.m */,
+			);
+			path = MKBCloseButton;
+			sourceTree = "<group>";
+		};
+		4A09A34E1D4AF7D2004D4EA9 /* DJProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4A09A3461D4AF7D2004D4EA9 /* DJActivityIndicator.h */,
+				4A09A3471D4AF7D2004D4EA9 /* DJActivityIndicator.m */,
+				4A09A3481D4AF7D2004D4EA9 /* DJBezierPath.h */,
+				4A09A3491D4AF7D2004D4EA9 /* DJBezierPath.m */,
+				4A09A34A1D4AF7D2004D4EA9 /* DJProgressHUD.h */,
+				4A09A34B1D4AF7D2004D4EA9 /* DJProgressHUD.m */,
+				4A09A34C1D4AF7D2004D4EA9 /* DJProgressIndicator.h */,
+				4A09A34D1D4AF7D2004D4EA9 /* DJProgressIndicator.m */,
+			);
+			name = DJProgressHUD;
+			path = "/Users/AndrewM/Downloads/DJProgressHUD_OSX-master/Playground/Playground/../../DJProgressHUD";
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A09A2CE1D4A642D004D4EA9 /* FOSSR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A09A2F61D4A642D004D4EA9 /* Build configuration list for PBXNativeTarget "FOSSR" */;
+			buildPhases = (
+				4A09A2CB1D4A642D004D4EA9 /* Sources */,
+				4A09A2CC1D4A642D004D4EA9 /* Frameworks */,
+				4A09A2CD1D4A642D004D4EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOSSR;
+			productName = FOSSSR;
+			productReference = 4A09A2CF1D4A642D004D4EA9 /* FOSSR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A09A2E11D4A642D004D4EA9 /* FOSSRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A09A2F91D4A642D004D4EA9 /* Build configuration list for PBXNativeTarget "FOSSRTests" */;
+			buildPhases = (
+				4A09A2DE1D4A642D004D4EA9 /* Sources */,
+				4A09A2DF1D4A642D004D4EA9 /* Frameworks */,
+				4A09A2E01D4A642D004D4EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A09A2E41D4A642D004D4EA9 /* PBXTargetDependency */,
+			);
+			name = FOSSRTests;
+			productName = FOSSSRTests;
+			productReference = 4A09A2E21D4A642D004D4EA9 /* FOSSR.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A09A2EC1D4A642D004D4EA9 /* FOSSRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A09A2FC1D4A642D004D4EA9 /* Build configuration list for PBXNativeTarget "FOSSRUITests" */;
+			buildPhases = (
+				4A09A2E91D4A642D004D4EA9 /* Sources */,
+				4A09A2EA1D4A642D004D4EA9 /* Frameworks */,
+				4A09A2EB1D4A642D004D4EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A09A2EF1D4A642D004D4EA9 /* PBXTargetDependency */,
+			);
+			name = FOSSRUITests;
+			productName = FOSSSRUITests;
+			productReference = 4A09A2ED1D4A642D004D4EA9 /* FOSSR.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A09A2C71D4A642D004D4EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = theawesomecoder61;
+				TargetAttributes = {
+					4A09A2CE1D4A642D004D4EA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V2N5QPY6NQ;
+					};
+					4A09A2E11D4A642D004D4EA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A09A2CE1D4A642D004D4EA9;
+					};
+					4A09A2EC1D4A642D004D4EA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4A09A2CE1D4A642D004D4EA9;
+					};
+				};
+			};
+			buildConfigurationList = 4A09A2CA1D4A642D004D4EA9 /* Build configuration list for PBXProject "FOSSR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A09A2C61D4A642D004D4EA9;
+			productRefGroup = 4A09A2D01D4A642D004D4EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A09A2CE1D4A642D004D4EA9 /* FOSSR */,
+				4A09A2E11D4A642D004D4EA9 /* FOSSRTests */,
+				4A09A2EC1D4A642D004D4EA9 /* FOSSRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A09A2CD1D4A642D004D4EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09A2D91D4A642D004D4EA9 /* Assets.xcassets in Resources */,
+				4A09A3061D4AB11E004D4EA9 /* Credits.rtf in Resources */,
+				4A09A2DC1D4A642D004D4EA9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A09A2E01D4A642D004D4EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A09A2EB1D4A642D004D4EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A09A2CB1D4A642D004D4EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09A3521D4AF7D2004D4EA9 /* DJProgressIndicator.m in Sources */,
+				4A09A3511D4AF7D2004D4EA9 /* DJProgressHUD.m in Sources */,
+				4A09A34F1D4AF7D2004D4EA9 /* DJActivityIndicator.m in Sources */,
+				4A09A3501D4AF7D2004D4EA9 /* DJBezierPath.m in Sources */,
+				4A09A2D71D4A642D004D4EA9 /* main.m in Sources */,
+				4A09A2D41D4A642D004D4EA9 /* AppDelegate.m in Sources */,
+				4A09A3041D4A6A00004D4EA9 /* DrawMouseBoxView.m in Sources */,
+				4A09A3451D4AF287004D4EA9 /* MKBCloseButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A09A2DE1D4A642D004D4EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09A2E71D4A642D004D4EA9 /* FOSSSRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A09A2E91D4A642D004D4EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A09A2F21D4A642D004D4EA9 /* FOSSSRUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A09A2E41D4A642D004D4EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A09A2CE1D4A642D004D4EA9 /* FOSSR */;
+			targetProxy = 4A09A2E31D4A642D004D4EA9 /* PBXContainerItemProxy */;
+		};
+		4A09A2EF1D4A642D004D4EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A09A2CE1D4A642D004D4EA9 /* FOSSR */;
+			targetProxy = 4A09A2EE1D4A642D004D4EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A09A2DA1D4A642D004D4EA9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A09A2DB1D4A642D004D4EA9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A09A2F41D4A642D004D4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A09A2F51D4A642D004D4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A09A2F71D4A642D004D4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FOSSSR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theawesomecoder61.FOSSSR;
+				PRODUCT_NAME = FOSSR;
+			};
+			name = Debug;
+		};
+		4A09A2F81D4A642D004D4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FOSSSR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theawesomecoder61.FOSSSR;
+				PRODUCT_NAME = FOSSR;
+			};
+			name = Release;
+		};
+		4A09A2FA1D4A642D004D4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FOSSSRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theawesomecoder61.FOSSSRTests;
+				PRODUCT_NAME = FOSSR;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOSSR.app/Contents/MacOS/FOSSR";
+			};
+			name = Debug;
+		};
+		4A09A2FB1D4A642D004D4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FOSSSRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theawesomecoder61.FOSSSRTests;
+				PRODUCT_NAME = FOSSR;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOSSR.app/Contents/MacOS/FOSSR";
+			};
+			name = Release;
+		};
+		4A09A2FD1D4A642D004D4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FOSSSRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theawesomecoder61.FOSSSRUITests;
+				PRODUCT_NAME = FOSSR;
+				TEST_TARGET_NAME = FOSSSR;
+			};
+			name = Debug;
+		};
+		4A09A2FE1D4A642D004D4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FOSSSRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theawesomecoder61.FOSSSRUITests;
+				PRODUCT_NAME = FOSSR;
+				TEST_TARGET_NAME = FOSSSR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A09A2CA1D4A642D004D4EA9 /* Build configuration list for PBXProject "FOSSR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A09A2F41D4A642D004D4EA9 /* Debug */,
+				4A09A2F51D4A642D004D4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A09A2F61D4A642D004D4EA9 /* Build configuration list for PBXNativeTarget "FOSSR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A09A2F71D4A642D004D4EA9 /* Debug */,
+				4A09A2F81D4A642D004D4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A09A2F91D4A642D004D4EA9 /* Build configuration list for PBXNativeTarget "FOSSRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A09A2FA1D4A642D004D4EA9 /* Debug */,
+				4A09A2FB1D4A642D004D4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A09A2FC1D4A642D004D4EA9 /* Build configuration list for PBXNativeTarget "FOSSRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A09A2FD1D4A642D004D4EA9 /* Debug */,
+				4A09A2FE1D4A642D004D4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A09A2C71D4A642D004D4EA9 /* Project object */;
+}
