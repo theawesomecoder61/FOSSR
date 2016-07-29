@@ -5,10 +5,10 @@ A **F**ree, **O**pen-**S**ource **S**creen **R**ecorder for Mac OS X 10.8+.
 This will take you to the releases page.
 
 ## Why not use QuickTime?
-QuickTime's built-in screen recorder is fine, but there is lack of configuration (framerate, quality, etc.). This one is open source! I spent $99 on a screen recorder (no names will be given) and it still can't record 60 FPS  (30 is the highest)! So I decided to make my own.
+QuickTime's built-in screen recorder is fine, but there is a lack of configuration (framerate, quality, etc.). So I decided to make my own that will be configurable.
 
 ## Features
-- Records entire display
+- Records the entire display
 - Choose which display to record
 - Set the framerate/FPS (5, 10, 15, 25, 30, 45, 60 FPS)
 - Show/hide the mouse
@@ -17,7 +17,7 @@ QuickTime's built-in screen recorder is fine, but there is lack of configuration
 - Countdown from 0 to 10 seconds
 
 ## How it works
-Mac OS X and iOS have a framework named *AVFoundation*. This handles audio and video input/output, such as audio players or video camera capture. Here is what goes on in the meat of the code:
+Mac OS X and iOS have a framework named *AVFoundation*. This framework handles audio and video input/output, such as audio players or video camera capture. Here is what goes on in the meat of the code:
 
 1. It creates an *AVCaptureSession*, this allows inputs of audio and video, quite necessary
 2. It creates an *AVCaptureScreenInput*, this allows us to capture the screen
@@ -40,8 +40,8 @@ To close the window, click the red circle or push *Escape*.
 
 ## Building for yourself
 1. Make sure Xcode is installed
-2. Download as ZIP or clone the repo
-3. Run the project
+2. Download the repo as a ZIP or clone the repo
+3. Open the project in Xcode and run the project
 4. Enjoy!
 
 ## Planned features
