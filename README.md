@@ -39,14 +39,14 @@ Mac OS X and iOS have a framework named *AVFoundation*. This handles audio and v
 4. Enjoy!
 
 ## Planned features
+Italics indicate a urgent future bug fix.
 - *Fix Stop button from not enabling after recording*
+- *If countdown time is set to 0, don't show the countdown*
 - A demo video on YouTube
 - Set the quality of the video
 - Microphone recording
 - Record a rectangular selection on the screen
 - Record a window?
-- Remove commented-out code
-- If countdown time is set to 0, don't show the countdown
 
 ## The *.circles* file in `icons/`
 *.circles* files can be created/edited/viewed with [CircleIcons](http://www.bayhoff.com/circleicons/index.html). I am not affiliated or endorsed with the developer of CircleIcons.
