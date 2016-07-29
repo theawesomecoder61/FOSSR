@@ -43,8 +43,6 @@ To close the window, click the red circle or push *Escape*.
 
 ## Planned features
 Italics indicate a urgent future bug fix.
-- *Fix Stop button from not enabling after recording*
-- *If countdown time is set to 0, don't show the countdown*
 - A demo video on YouTube
 - Set the quality of the video
 - Microphone recording
