@@ -1,13 +1,16 @@
 # FOSSR
 A **F**ree, **O**pen-**S**ource **S**creen **R**ecorder for Mac OS X 10.8+.
 
+## Why not use QuickTime?
+QuickTime's built-in screen recorder is fine, but there is lack of configuration (framerate, quality, etc.). This one is open source! I spent $99 on a screen recorder (no names will be given) and it still can't record 60 FPS  (30 is the highest)!
+
 ## Features
 - Records entire display
 - Choose which display to record
 - Set the framerate/FPS (5, 10, 15, 25, 30, 45, 60 FPS)
 - Show/hide the mouse
 - Show/hide mouse clicks
-- Removes duplicate frames (for smoother-looking video)
+- Remove duplicate frames (for smoother-looking video)
 - Countdown from 0 to 10 seconds
 
 ## How it works
