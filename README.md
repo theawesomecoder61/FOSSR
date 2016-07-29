@@ -20,7 +20,7 @@ Mac OS X and iOS have a framework named *AVFoundation*. This framework handles a
 2. It creates an *AVCaptureScreenInput*, this allows us to capture the screen
 3. It adds the *AVCaptureScreenInput* to the session, otherwise our session wouldn't have anything in it
 4. It initiates a *AVCaptureMovieFileOutput*, so we can export the captured screen data to a file as an *.mov*
-5. It adds the *AVCaptureMovieFileOutput*
+5. It adds the *AVCaptureMovieFileOutput* to the session
 6. It runs the session
 7. Once the user clicks *Record* and selects a place to record to, it begins to record and write data once *Stop* is clicked
 
