@@ -1,14 +1,25 @@
 # FOSSR
-A free, open-source screen recorder for Mac OS X 10.8+.
+A **F**ree, **O**pen-**S**ource **S**creen **R**ecorder for Mac OS X 10.8+.
 
 ## Features
 - Records entire display
 - Choose which display to record
-- Set the framerate/FPS (5-60 FPS)
+- Set the framerate/FPS (5, 10, 15, 25, 30, 45, 60 FPS)
 - Show/hide the mouse
 - Show/hide mouse clicks
 - Removes duplicate frames (for smoother-looking video)
 - Countdown from 0 to 10 seconds
+
+## How it works
+Mac OS X and iOS have a framework named *AVFoundation*. This handles audio and video input/output, such as audio players or video camera capture. Here is what goes on in the meat of the code:
+
+1. It creates an *AVCaptureSession*, this allows inputs of audio and video, quite necessary
+2. It creates an *AVCaptureScreenInput*, this allows us to capture the screen
+3. It adds the *AVCaptureScreenInput* to the session, otherwise our session wouldn't have anything in it
+4. It initiates a *AVCaptureMovieFileOutput*, so we can export the captured screen data to a file as an *.mov*
+5. It adds the *AVCaptureMovieFileOutput*
+6. It runs the session
+7. Once the user clicks *Record* and selects a place to record to, it begins to record and write data once *Stop* is clicked
 
 ## Screenshots
 ### Main Window
@@ -18,15 +29,25 @@ A free, open-source screen recorder for Mac OS X 10.8+.
 ### Countdown (an optional feature)
 ![](http://i.imgur.com/vF8NTbn.png)
 
+## Building for yourself
+1. Make sure Xcode is installed
+2. Download as ZIP or clone the repo
+3. Run the project
+4. Enjoy!
+
 ## Planned features
 - *Fix Stop button from not enabling after recording*
+- Set the quality of the video
 - Microphone recording
 - Record a rectangular selection on the screen
 - Record a window?
 - Remove commented-out code
 - If countdown time is set to 0, don't show the countdown
 
+## The *.circles* file in `icons/`
+*.circles* files can be created/edited/viewed with [CircleIcons](http://www.bayhoff.com/circleicons/index.html). I am not affiliated or endorsed with the developer of CircleIcons.
+
 ## Licenses
-Since I'm too lazy to pu the licenses here, I'll provide links to them.
+Since I'm too lazy to put the licenses here, I'll provide links to them.
 - [DJProgressHUD_OSX](https://github.com/danielmj/DJProgressHUD_OSX/blob/master/LICENSE.txt)
 - [MKBOSXCloseButton](https://github.com/Megatron1000/MKBOSXCloseButton/blob/master/LICENSE)
