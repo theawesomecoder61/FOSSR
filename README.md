@@ -37,6 +37,7 @@ Mac OS X and iOS have a framework named *AVFoundation*. This handles audio and v
 
 ## Planned features
 - *Fix Stop button from not enabling after recording*
+- A demo video on YouTube
 - Set the quality of the video
 - Microphone recording
 - Record a rectangular selection on the screen
