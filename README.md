@@ -1,6 +1,9 @@
 # FOSSR
 A **F**ree, **O**pen-**S**ource **S**creen **R**ecorder for Mac OS X 10.8+.
 
+## [Download here](https://github.com/theawesomecoder61/FOSSR/releases)
+This will take you to the releases page.
+
 ## Why not use QuickTime?
 QuickTime's built-in screen recorder is fine, but there is lack of configuration (framerate, quality, etc.). This one is open source! I spent $99 on a screen recorder (no names will be given) and it still can't record 60 FPS  (30 is the highest)! So I decided to make my own.
 
